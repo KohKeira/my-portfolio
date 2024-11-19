@@ -5,7 +5,7 @@ const Experiences = () => {
     <section id="experiences">
       <div
         className="m-auto container d-flex flex-column gap-4 px-md-5"
-        style={{ maxWidth: "800px" }}
+        style={{ maxWidth: "1000px" }}
       >
         <h2 className="fw-bold">Experiences</h2>
         <div id="carouselIndicators" className="carousel slide">
