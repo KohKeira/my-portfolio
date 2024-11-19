@@ -45,6 +45,18 @@ const Project = () => {
                         />
                       ))}
                     </div>
+                    {project.link !== "" && (
+                       <a
+                       className="text-decoration-none mt-3 m-auto align-items-center gap-2 mobile-link"
+                       href={project.link}
+                       target="_blank"
+                     >
+                       View on GitHub
+                       <i className="pb-1">
+                         <FaArrowRight size={20} />
+                       </i>
+                     </a>
+                    )}
                   </div>
                   {project.link !== "" && (
                     <div className="card-hover-item d-flex rounded-bottom bg-light bg-gradient">
