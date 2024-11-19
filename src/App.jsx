@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/About";
+import Achievement from "./components/Achievement";
 import Experiences from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <Project/>
       <Experiences/>
+      <Achievement/>
     </>
   );
 }

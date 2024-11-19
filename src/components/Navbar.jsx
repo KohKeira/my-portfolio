@@ -5,7 +5,7 @@ const Navbar = () => {
     { href: "#about", label: "About" },
     { href: "#projects", label: "Projects" },
     { href: "#experiences", label: "Experiences" },
-    { href: "#awards", label: "Awards" },
+    { href: "#achievement", label: "Achievements" },
   ];
   const [active, setActive] = useState("");
 
