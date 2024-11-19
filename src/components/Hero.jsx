@@ -3,7 +3,7 @@ import profileImage from "../assets/images/avatar.jpg";
 import Typed from "typed.js";
 import { useEffect } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-
+import resume from "../../public/KohKeira_Resume.pdf";
 const Hero = () => {
   const type = useRef(null);
 
@@ -46,9 +46,9 @@ const Hero = () => {
               that will contribute back to the society.
             </p>
             <div className="d-flex align-items-center gap-3 mt-4 justify-content-center justify-content-md-start">
-              <button className="btn btn-outline-light " type="button">
+              <a className="btn btn-outline-light " href={resume} download={"KohKeira_Resume.pdf"}>
                 Resume
-              </button>
+              </a>
               <a
                 href="https://github.com/KohKeira"
                 target="_blank"
