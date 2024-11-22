@@ -1,3 +1,4 @@
+import digitalSage from '/src/assets/images/digital-sage.jpg'
 export const projects = [
   {
     title: "Shopify",
@@ -6,7 +7,7 @@ export const projects = [
     thumbnail: "https://www.youtube.com/embed/Q7_-Mh7Rr4g?si=fHQcS7PJag6DOwoK",
     description:
       "This is an E-commerce project with Role-Based Access Control (RBAC). It focuses on application security, mainly on OWASP pratices, including Broken Object Level Access and Broken Authenctication.",
-    tags: ["laravel", "react", "tailwind"],
+    tags: ["laravel", "react", "tailwind", "mongodb"],
   },
   {
     title: "Movie Hunt",
@@ -24,6 +25,15 @@ export const projects = [
     thumbnail: "https://www.youtube.com/embed/7UN-Wv8CQmk?si=a996R8lWkPejOvTa",
     description:
       "This mobile application promotes food sustainability by tracking food quantity and expiry date. It also allows neigbours to give away food items to reduce food wastage.",
-    tags: ["flutter","dart", "firebase"],
-  }
+    tags: ["flutter", "dart", "firebase"],
+  },
+  {
+    title: "Digital Sage",
+    link: "https://github.com/KohKeira/product-management.git",
+    thumbnailType: "image",
+    thumbnail: digitalSage,
+    description:
+      "This website allows admins to create, read, update and delete (CRUD) products so that they can take stock of what they have in the inventory.",
+    tags: ["html", "css", "javascript",'mysql'],
+  },
 ];
