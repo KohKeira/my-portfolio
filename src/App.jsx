@@ -5,6 +5,7 @@ import Experiences from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Project from "./components/Project";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Project/>
       <Experiences/>
       <Achievement/>
+      <Footer/>
     </>
   );
 }
