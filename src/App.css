@@ -86,7 +86,7 @@ section {
 .slide-in {
   animation: slideUp linear forwards;
   animation-timeline: view();
-  animation-range: 25vh 75vh;
+  animation-range: 25vh 50vh;
   opacity: 0;
   transform: translateY(100px);
 }
