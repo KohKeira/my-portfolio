@@ -1,4 +1,5 @@
-import digitalSage from '/src/assets/images/digital-sage.jpg'
+import digitalSage from "/src/assets/images/digital-sage.jpg";
+import portfolioV1 from "/src/assets/images/portfolio_v1.jpg";
 export const projects = [
   {
     title: "Shopify",
@@ -34,6 +35,15 @@ export const projects = [
     thumbnail: digitalSage,
     description:
       "This website allows admins to create, read, update and delete (CRUD) products so that they can take stock of what they have in the inventory.",
-    tags: ["html", "css", "javascript",'mysql'],
+    tags: ["html", "css", "javascript", "mysql"],
+  },
+  {
+    title: "First Portfolio",
+    link: "https://github.com/KohKeira/KohKeira.github.io.git",
+    thumbnailType: "image",
+    thumbnail: portfolioV1,
+    description:
+      "This was my first website, created in Secondary Four for my EAE application to Temasek Polytechnic. It was an exciting introduction to web development.",
+    tags: ["html", "css"],
   },
 ];
